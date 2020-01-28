@@ -8,7 +8,6 @@ namespace GetAndSet
         }
 
         private string name = "Suresh Dasari";
-
         public string Name
         {
             get
@@ -18,7 +17,10 @@ namespace GetAndSet
 
             set
             {
-                name = value;
+                if (value == "Suresh")
+                {
+                    name = value;
+                }
             }
         }
 
