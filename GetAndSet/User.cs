@@ -18,8 +18,7 @@ namespace GetAndSet
 
             set
             {
-                if (value == "Michael")
-                    name = value;
+                name = value;
             }
         }
 
